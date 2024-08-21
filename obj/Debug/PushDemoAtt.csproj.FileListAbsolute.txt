@@ -1,0 +1,16 @@
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\PushDemoAtt.csproj.AssemblyReference.cache
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.FormMain.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.Properties.Resources.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCAttendance.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCCommInfo.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCCreateCmd.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCDevice.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCDeviceCmd.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCErrorLog.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCOperateLog.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCSms.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCUpload.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCUser.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\Attendance.UCWorkCode.resources
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\PushDemoAtt.csproj.GenerateResource.cache
+C:\Users\Jacques\OneDrive - FarmTrace (Pty) Ltd\Desktop\ZKTeco dESTRUCTED\PushDemoAtt\PushDemoAtt\obj\Debug\PushDemoAtt.csproj.CoreCompileInputs.cache

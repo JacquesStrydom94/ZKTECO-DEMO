@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\C# Attendence Push Demo\PushDemoAtt.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC50A42A-D0EA-497E-923B-BEBEC227066A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>PushDemoAtt</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Attendance</RootNamespace>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BLL">
+      <HintPath>lib\BLL.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Model">
+      <HintPath>lib\Model.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Utils">
+      <HintPath>lib\Utils.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatagridviewcheckboxHeaderEventHander.cs" />
+    <Compile Include="DatagridviewCheckboxHeaderEventArgs.cs" />
+    <Compile Include="DatagridviewCheckboxHeaderCell.cs" />
+    <Compile Include="ListenClient.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ServerInfo.cs" />
+    <Compile Include="ServerLogToFile.cs" />
+    <Compile Include="UCAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCommInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCCreateCmd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDevice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCOperateLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDeviceCmd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUpload.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCErrorLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCSms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCWorkCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormMain.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="UCAttendance.resx" />
+    <EmbeddedResource Include="UCCommInfo.resx" />
+    <EmbeddedResource Include="UCCreateCmd.resx" />
+    <EmbeddedResource Include="UCDevice.resx" />
+    <EmbeddedResource Include="UCDeviceCmd.resx" />
+    <EmbeddedResource Include="UCErrorLog.resx" />
+    <EmbeddedResource Include="UCOperateLog.resx" />
+    <EmbeddedResource Include="UCSms.resx" />
+    <EmbeddedResource Include="UCUpload.resx" />
+    <EmbeddedResource Include="UCUser.resx" />
+    <EmbeddedResource Include="UCWorkCode.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
