@@ -248,8 +248,7 @@ namespace Attendance
       {
         string name = selectedNode.Name;
         // ISSUE: reference to a compiler-generated method
-        switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(name))
-        {
+        switch (\u003CPrivateImplementationDetails\u003E.ComputeStringHash(name)):
           case 37118603:
             if (!(name == "nodeCreateCmd"))
               break;
@@ -325,7 +324,7 @@ namespace Attendance
       this._isStart = !this._isStart;
     }
 
-    private void GetServerIP()
+        public void GetServerIP()
     {
       IPHostEntry hostEntry = Dns.GetHostEntry(Dns.GetHostName());
       this.cmbIP.Text = "";

@@ -1,0 +1,39 @@
+ picClose
+ tn_close2
+ picMax
+pnlTop
+lblTitle
+pnlLeft
+picLogo
+pnlWindowsButton
+picMin
+tvMenu
+pnlSetting
+lblPort
+lblIP
+btnStart
+txtPort
+scMain -panel
+ucCommInfo1
+\\
+switchpage
+\\
+Panel1
+FormMain
+cmbIP
+ btn_closeDialog
+
+user32.dll missing
+
+btn_minimize2
+btn_restor
+btn_minimize
+btn_maximize2
+btn_maximize
+imgDevStatus1
+imgDevStatus2
+imgNoPhoto
+sousuo
+sousuo2
+ZKTeco
+ZKTeco2
